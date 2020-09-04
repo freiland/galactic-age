@@ -51,6 +51,14 @@ export class keyInfo {
     
     return remain;
   }
+
+  timeOnMars () {
+    let age = Math.round(this.age/1.88);
+    let expectancy = marsExpect[this.race];
+    let remain = expectancy - age;
+    
+    return remain;
+  }
   
 
   //getArea() {
