@@ -30,17 +30,17 @@ _This application allows a user to input their age (in years) and their race. It
   * #### **Input**: 25 years
   * #### **Output**: 2.11 years
 
-* #### **Spec**:  The program takes the array values and outputs the corresponding price stored in the price adjustment object.
-  * #### **Input**: ['cheese', 'sausage']
-  * #### **Output**:[0, 1.75]
+* #### **Spec**:  The program calculates life expectancy in Earth years based on demographic data compiled by the CDC.
+  * #### **Input**: 'hispanic'
+  * #### **Output**: 82 years
 
-* #### **Spec**:  A function sums the toppings array values.
-  * #### **Input**: [0, 1.75]
-  * #### **Output**: 1.75
+* #### **Spec**:  A method calculates how many years a user has left to live based on life expectancy.
+  * #### **Input**: 25, 'hispanic'
+  * #### **Output**: 57 years.
 
-* #### **Spec**:  A prototype method, calculatePrice, is used to calculate the final price and the toppings array is added.
-  * #### **Input**: 8 inch pizza, cheese and sausage
-  * #### **Output**: $8.50
+* #### **Spec**:  A function returns the years that a user has exceeded their life expectancy.
+  * #### **Input**: 89, 'hispanic'
+  * #### **Output**: 7.
 
 ## Setup / Installation Instructions
 
@@ -62,6 +62,9 @@ _If you encounter any problems with this software, or would like to contribute, 
 * CSS and Bootstrap
 * JavaScript and JQuery
 * Markdown 
+* node package manager
+* Jest
+* Babel 
 
 ## License 
 
