@@ -6,7 +6,7 @@
 
 ## Description 
 
-_This application allows a user to input their age (in years) and their race. It then calculates their age in solar orbits on Mercury, Venus, Mars, and Jupiter. Additionally it calculates a users life expectatncy on each planet and how many years on that planet they have to live. Finally, if a users input age is greater than the life expectancy for their demographic, it returns the number of yers that they have gone over the average life expectancy for their demographic. _
+_This application allows a user to input their age (in years) and their race. It then calculates their age in solar orbits on Mercury, Venus, Mars, and Jupiter. Additionally it calculates a users life expectatncy on each planet and how many years on that planet they have to live. Finally, if a users input age is greater than the life expectancy for their demographic, it returns the number of yers that they have gone over the average life expectancy for their demographic._
 
 ## Specifications
 
