@@ -17,8 +17,8 @@ export class keyInfo {
   }
 
   marsYear () {
-    //let age = (this.age/.62) ;
-    //return Math.round(age);
+    let age = (this.age/1.88) ;
+    return Math.round(age);
 
   }
 

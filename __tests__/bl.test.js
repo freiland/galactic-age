@@ -24,7 +24,7 @@ describe('keyInfo class', () => {
   });
 
   test('should correctly convert Earth years into Mars years', () => {
-    expect(userInfo.marsYear()).toEqual(40);
+    expect(userInfo.marsYear()).toEqual(13);
   });
 
 });
