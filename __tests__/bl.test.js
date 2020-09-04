@@ -27,6 +27,10 @@ describe('keyInfo class', () => {
     expect(userInfo.marsYear()).toEqual(13);
   });
 
+  test('should correctly convert Earth years into Jupiter years', () => {
+    expect(userInfo.jupiterYear()).toEqual(13);
+  });
+
 });
 
 
