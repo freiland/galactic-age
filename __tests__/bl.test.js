@@ -40,7 +40,7 @@ describe('keyInfo class', () => {
   });
 
   test('should correctly return the time left on planet Mercury using race life expectancy and input age', () => {
-    expect(userInfo.timeOnMercury()).toEqual(57);
+    expect(userInfo.timeOnMercury()).toEqual(238);
   });
 
 });

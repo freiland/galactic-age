@@ -37,7 +37,7 @@ export class keyInfo {
   }
 
   timeOnMercury () {
-    let age = this.age;
+    let age = Math.round(this.age/.24);
     let expectancy = mercuryExpect[this.race];
     let remain = expectancy - age;
     
