@@ -20,7 +20,7 @@ describe('old age test', () => {
   });
 
   test('should return a the number of years a user has exceeded average life expectancy for their race demo on Mercury', () => {
-    expect(userInfo.timeOnVenus()).toEqual(63);
+    expect(userInfo.timeOnMercury()).toEqual(63);
     
   });
 

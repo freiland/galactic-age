@@ -33,7 +33,8 @@ export class keyInfo {
     let expectancy = raceExpect[this.race];
     let remain = expectancy - age;
     if (remain < 0) {
-      return Math.round(age-expectancy);
+      let exceed = Math.round(age-expectancy); 
+      return exceed;
     }
     
     return Math.round(remain);
@@ -43,6 +44,9 @@ export class keyInfo {
     let age = (this.age/.24);
     let expectancy = mercuryExpect[this.race];
     let remain = expectancy - age;
+    if (remain < 0) {
+      let exceed = Math.round(age-expectancy); 
+      return exceed;}
     
     return Math.round(remain);
   }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1599256674015" clover="3.2.0">
-  <project timestamp="1599256674015" name="All files">
-    <metrics statements="37" coveredstatements="37" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10" elements="49" coveredelements="49" complexity="0" loc="37" ncloc="37" packages="1" files="1" classes="1"/>
+<coverage generated="1599257057522" clover="3.2.0">
+  <project timestamp="1599257057522" name="All files">
+    <metrics statements="41" coveredstatements="41" conditionals="4" coveredconditionals="4" methods="10" coveredmethods="10" elements="55" coveredelements="55" complexity="0" loc="41" ncloc="41" packages="1" files="1" classes="1"/>
     <file name="blscripts.js" path="/Users/forrestreiland/Desktop/javascript/galactic-age/src/js/blscripts.js">
-      <metrics statements="37" coveredstatements="37" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10"/>
+      <metrics statements="41" coveredstatements="41" conditionals="4" coveredconditionals="4" methods="10" coveredmethods="10"/>
       <line num="3" count="14" type="stmt"/>
       <line num="4" count="14" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
@@ -19,28 +19,32 @@
       <line num="34" count="2" type="stmt"/>
       <line num="35" count="2" type="cond" truecount="2" falsecount="0"/>
       <line num="36" count="1" type="stmt"/>
-      <line num="39" count="1" type="stmt"/>
-      <line num="43" count="1" type="stmt"/>
-      <line num="44" count="1" type="stmt"/>
-      <line num="45" count="1" type="stmt"/>
-      <line num="47" count="1" type="stmt"/>
-      <line num="51" count="2" type="stmt"/>
-      <line num="52" count="2" type="stmt"/>
-      <line num="53" count="2" type="stmt"/>
-      <line num="55" count="2" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="44" count="2" type="stmt"/>
+      <line num="45" count="2" type="stmt"/>
+      <line num="46" count="2" type="stmt"/>
+      <line num="47" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="48" count="1" type="stmt"/>
+      <line num="49" count="1" type="stmt"/>
+      <line num="51" count="1" type="stmt"/>
+      <line num="55" count="1" type="stmt"/>
+      <line num="56" count="1" type="stmt"/>
+      <line num="57" count="1" type="stmt"/>
       <line num="59" count="1" type="stmt"/>
-      <line num="60" count="1" type="stmt"/>
-      <line num="61" count="1" type="stmt"/>
       <line num="63" count="1" type="stmt"/>
+      <line num="64" count="1" type="stmt"/>
+      <line num="65" count="1" type="stmt"/>
       <line num="67" count="1" type="stmt"/>
-      <line num="68" count="1" type="stmt"/>
-      <line num="69" count="1" type="stmt"/>
       <line num="71" count="1" type="stmt"/>
-      <line num="80" count="2" type="stmt"/>
-      <line num="88" count="2" type="stmt"/>
-      <line num="96" count="2" type="stmt"/>
-      <line num="104" count="2" type="stmt"/>
-      <line num="112" count="2" type="stmt"/>
+      <line num="72" count="1" type="stmt"/>
+      <line num="73" count="1" type="stmt"/>
+      <line num="75" count="1" type="stmt"/>
+      <line num="84" count="2" type="stmt"/>
+      <line num="92" count="2" type="stmt"/>
+      <line num="100" count="2" type="stmt"/>
+      <line num="108" count="2" type="stmt"/>
+      <line num="116" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>
