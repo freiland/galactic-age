@@ -6,17 +6,29 @@
 
 ## Description 
 
-_This application allows a user to input their age (in years) and their race. _
+_This application allows a user to input their age (in years) and their race. It then calculates their age in solar orbits on Mercury, Venus, Mars, and Jupiter. Additionally it calculates a users life expectatncy on each planet and how many years on that planet they have to live. Finally, if a users input age is greater than the life expectancy for their demographic, it returns the number of yers that they have gone over the average life expectancy for their demographic. _
 
 ## Specifications
 
-* #### **Spec**:  The program takes the value selected from the drop down menu and returns a price.
-  * #### **Input**: Personal Pie, value = "0"
-  * #### **Output**: $7
+* #### **Spec**:  The program takes in the users age, and race and returns a keyInfo object.
+  * #### **Input**: 25 and hispanic.
+  * #### **Output**: userInfo (age:25, race: hispanic)
 
-* #### **Spec**:  The program adds the checkbox values to an array".
-  * #### **Input**: cheese, sausage
-  * #### **Output**: ["cheese", "sausage"]
+* #### **Spec**:  The program calculates age in Mercury years.
+  * #### **Input**: 25 years
+  * #### **Output**: 104.17 years
+
+* #### **Spec**:  The program calculates age in Venus years.
+  * #### **Input**: 25 years
+  * #### **Output**: 40.32 years
+
+* #### **Spec**:  The program calculates age in Mars years.
+  * #### **Input**: 25 years
+  * #### **Output**: 13.29 years
+
+* #### **Spec**:  The program calculates age in Jupiter years.
+  * #### **Input**: 25 years
+  * #### **Output**: 2.11 years
 
 * #### **Spec**:  The program takes the array values and outputs the corresponding price stored in the price adjustment object.
   * #### **Input**: ['cheese', 'sausage']
