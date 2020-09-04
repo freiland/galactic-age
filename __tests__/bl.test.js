@@ -18,6 +18,11 @@ describe('keyInfo class', () => {
   test('should correctly convert Earth years into Mercury years', () => {
     expect(userInfo.mercuryYear()).toEqual(104);
   });
+
+  test('should correctly convert Earth years into Venus years', () => {
+    expect(userInfo.venusYear()).toEqual(104);
+  });
+
 });
 
 
