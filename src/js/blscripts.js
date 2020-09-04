@@ -11,8 +11,8 @@ export class keyInfo {
   }
 
   venusYear () {
-    //let age = (this.age/.24) ;
-    //return Math.round(age);
+    let age = (this.age/.62) ;
+    return Math.round(age);
 
   }
 
