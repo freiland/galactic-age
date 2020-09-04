@@ -16,6 +16,12 @@ export class keyInfo {
 
   }
 
+  marsYear () {
+    //let age = (this.age/.62) ;
+    //return Math.round(age);
+
+  }
+
   //getArea() {
   //return this.side1 * this.side2;
   //}
