@@ -48,7 +48,7 @@ describe('keyInfo class', () => {
   });
 
   test('should correctly return the time left on planet Mars using race life expectancy and input age', () => {
-    expect(userInfo.timeOnMars()).toEqual(92);
+    expect(userInfo.timeOnMars()).toEqual(30);
   });
 
 });
