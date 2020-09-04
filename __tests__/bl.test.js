@@ -51,8 +51,8 @@ describe('keyInfo class', () => {
     expect(userInfo.timeOnMars()).toEqual(30);
   });
 
-  test('should correctly return the time left on planet Mars using race life expectancy and input age', () => {
-    expect(userInfo.timeOnJupiter()).toEqual(30);
+  test('should correctly return the time left on planet Jupiter using race life expectancy and input age', () => {
+    expect(userInfo.timeOnJupiter()).toEqual(5);
   });
 
 });

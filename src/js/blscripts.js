@@ -59,6 +59,14 @@ export class keyInfo {
     
     return Math.round(remain);
   }
+
+  timeOnJupiter () {
+    let age = (this.age/11.86);
+    let expectancy = jupiterExpect[this.race];
+    let remain = expectancy - age;
+    
+    return Math.round(remain);
+  }
   
 
   //getArea() {
