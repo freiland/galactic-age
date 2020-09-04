@@ -32,6 +32,9 @@ export class keyInfo {
     let age = this.age;
     let expectancy = raceExpect[this.race];
     let remain = expectancy - age;
+    if (remain < 0) {
+      return Math.round(age-expectancy);
+    }
     
     return Math.round(remain);
   }

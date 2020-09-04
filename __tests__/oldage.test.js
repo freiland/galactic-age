@@ -14,4 +14,9 @@ describe('old age test', () => {
     expect(userInfo.race).toEqual('African American');
   });
 
+  test('should return a user info object with 90 as age and african american as race', () => {
+    expect(userInfo.timeOnEarth()).toEqual(90);
+    
+  });
+
 });
