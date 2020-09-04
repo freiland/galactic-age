@@ -77,6 +77,9 @@ export class keyInfo {
     let age = (this.age/11.86);
     let expectancy = jupiterExpect[this.race];
     let remain = expectancy - age;
+    if (remain < 0) {
+      let exceed = Math.round(age-expectancy); 
+      return exceed;}
     
     return Math.round(remain);
   }

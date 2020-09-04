@@ -35,7 +35,7 @@ describe('old age test', () => {
   });
 
   test('should return a the number of years a user has exceeded average life expectancy for their race demo on Jupiter', () => {
-    expect(userInfo.timeOnJupiter()).toEqual(8);
+    expect(userInfo.timeOnJupiter()).toEqual();
     
   });
 
