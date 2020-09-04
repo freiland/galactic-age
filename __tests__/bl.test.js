@@ -1,4 +1,4 @@
-import {keyInfo, raceExpect} from '../src/js/blscripts.js';
+import {keyInfo, raceExpect, timeOnEarth} from '../src/js/blscripts.js';
 
 
 
@@ -35,8 +35,8 @@ describe('keyInfo class', () => {
     expect(raceExpect[userInfo.race]).toEqual(82);
   });
 
-  test('should correctly return the time left on plante Earth using race life expectancy and input age', () => {
-    expect(raceExpect[userInfo.race]).toEqual(9);
+  test('should correctly return the time left on planet Earth using race life expectancy and input age', () => {
+    expect(userInfo.timeOnEarth()).toEqual(9);
   });
 
 });

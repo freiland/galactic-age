@@ -28,6 +28,18 @@ export class keyInfo {
 
   }
 
+  timeOnEarth () {
+    // let age = this.age;
+    // let expectancy = raceExpect[this.race];
+    // let remain = expectancy - age;
+    // if (remain < 0) {
+    //   return ('you have outlived your life expectancy by {remain * -1} years');
+    // } 
+    // else {
+    //   return remain;
+    // }
+  }
+
   //getArea() {
   //return this.side1 * this.side2;
   //}
@@ -39,7 +51,7 @@ export let raceExpect = {
   'White American':79,
   'Hispanic American':82,
   'Asian American':86
-}
+};
 
 export let mercuryExpect = {
   'Native American':Math.round(75/.24),
@@ -47,7 +59,7 @@ export let mercuryExpect = {
   'White American':Math.round(79/.24),
   'Hispanic American':Math.round(82/.24),
   'Asian American':Math.round(86/.24)
-}
+};
 
 export let venusExpect = {
   'Native American':Math.round(75/.62),
@@ -55,7 +67,7 @@ export let venusExpect = {
   'White American':Math.round(79/.62),
   'Hispanic American':Math.round(82/.62),
   'Asian American':Math.round(86/.62)
-}
+};
 
 export let marsExpect = {
   'Native American':Math.round(75/1.88),
@@ -63,7 +75,7 @@ export let marsExpect = {
   'White American':Math.round(79/1.88),
   'Hispanic American':Math.round(82/1.88),
   'Asian American':Math.round(86/1.88)
-}
+};
 
 export let jupiterExpect = {
   'Native American':Math.round(75/11.86),
@@ -71,4 +83,4 @@ export let jupiterExpect = {
   'White American':Math.round(79/11.86),
   'Hispanic American':Math.round(82/11.86),
   'Asian American':Math.round(86/11.86)
-}
+};
