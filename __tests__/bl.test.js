@@ -23,6 +23,10 @@ describe('keyInfo class', () => {
     expect(userInfo.venusYear()).toEqual(40);
   });
 
+  test('should correctly convert Earth years into Mars years', () => {
+    expect(userInfo.marsYear()).toEqual(40);
+  });
+
 });
 
 
