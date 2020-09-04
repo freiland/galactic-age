@@ -32,7 +32,7 @@ describe('keyInfo class', () => {
   });
 
   test('should correctly return life expectancy according to race of user', () => {
-    expect(raceExpect(userInfo.race).toEqual('Asian American'));
+    expect(raceExpect[userInfo.race]).toEqual(8);
   });
 
 });
