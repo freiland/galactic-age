@@ -28,7 +28,7 @@ describe('keyInfo class', () => {
   });
 
   test('should correctly convert Earth years into Jupiter years', () => {
-    expect(userInfo.jupiterYear()).toEqual(13);
+    expect(userInfo.jupiterYear()).toEqual(2);
   });
 
 });

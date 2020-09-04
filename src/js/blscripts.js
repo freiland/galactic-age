@@ -23,8 +23,8 @@ export class keyInfo {
   }
 
   jupiterYear () {
-    //let age = (this.age/1.88) ;
-    //return Math.round(age);
+    let age = (this.age/11.86) ;
+    return Math.round(age);
 
   }
 
