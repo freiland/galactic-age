@@ -32,3 +32,11 @@ export class keyInfo {
   //return this.side1 * this.side2;
   //}
 }
+
+export let raceExpect = {
+  'Native American':75,
+  'African American':75,
+  'White American':79,
+  'Hispanic American':82,
+  'Asian American':86
+}

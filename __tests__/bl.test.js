@@ -1,4 +1,4 @@
-import {keyInfo} from '../src/js/blscripts.js';
+import {keyInfo, raceExpect} from '../src/js/blscripts.js';
 
 
 
@@ -7,12 +7,12 @@ describe('keyInfo class', () => {
   let userInfo;
 
   beforeEach(() => {
-    userInfo = new keyInfo(25,'hispanic');
+    userInfo = new keyInfo(25,'Hispanic American');
   });
 
   test('should correctly create a keyInfo object with 25 as age and hispanic as race', () => {
     expect(userInfo.age).toEqual(25);
-    expect(userInfo.race).toEqual('hispanic');
+    expect(userInfo.race).toEqual('Hispanic American');
   });
 
   test('should correctly convert Earth years into Mercury years', () => {
@@ -29,6 +29,10 @@ describe('keyInfo class', () => {
 
   test('should correctly convert Earth years into Jupiter years', () => {
     expect(userInfo.jupiterYear()).toEqual(2);
+  });
+
+  test('should correctly return life expectancy according to race of user', () => {
+    expect(raceExpect(userInfo.race).toEqual('Asian American');
   });
 
 });
