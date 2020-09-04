@@ -2,17 +2,22 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
+import {keyInfo} from './js/blscripts.js';
 
 
 $(document).ready(function() {
-//   $('#triangle-checker-form').submit(function(event) {
-//     event.preventDefault();
-//   //   const length1 = parseInt($('#length1').val());
-//   //   const length2 = parseInt($('#length2').val());
-//   //   const length3 = parseInt($('#length3').val());
-//   //   //const triangle = new Triangle(length1, length2, length3);
-//   //   //const response = triangle.checkType();
-//   //   $('#response').append(`<p>${response}</p>`);
+  $('#question').submit(function(event) {
+    event.preventDefault();
+    let age = parseInt($('#age').val());
+    let planet = $('#planet').val();
+    let race = $('#race').val();
+
+    const userData = keyInfo (age, race);
+    if (planet === 0 ) { 
+      let response = userData.timeOnEarth();
+
+    }
+    $('#response').append(`you are ${ response } on Earth`);
 //   // });
 
 //   // $('#rectangle-area-form').submit(function(event) {
@@ -22,5 +27,5 @@ $(document).ready(function() {
 //   //   //const rectangle = new Rectangle(length1, length2);
 //   //   //const response = rectangle.getArea();
 //   //   $('#response2').append(`<p> The area of the rectangle is ${response}.</p>`);
-//   // });
+  });
 });
