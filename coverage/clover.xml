@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1599255587366" clover="3.2.0">
-  <project timestamp="1599255587366" name="All files">
+<coverage generated="1599255752318" clover="3.2.0">
+  <project timestamp="1599255752318" name="All files">
     <metrics statements="37" coveredstatements="37" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10" elements="49" coveredelements="49" complexity="0" loc="37" ncloc="37" packages="1" files="1" classes="1"/>
     <file name="blscripts.js" path="/Users/forrestreiland/Desktop/javascript/galactic-age/src/js/blscripts.js">
       <metrics statements="37" coveredstatements="37" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="10"/>
