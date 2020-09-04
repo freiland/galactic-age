@@ -42,9 +42,33 @@ export let raceExpect = {
 }
 
 export let mercuryExpect = {
-  'Native American':75,
-  'African American':75,
-  'White American':79,
-  'Hispanic American':82,
-  'Asian American':86
+  'Native American':Math.round(75/.24),
+  'African American':Math.round(75/.24),
+  'White American':Math.round(79/.24),
+  'Hispanic American':Math.round(82/.24),
+  'Asian American':Math.round(86/.24)
+}
+
+export let venusExpect = {
+  'Native American':Math.round(75/.62),
+  'African American':Math.round(75/.62),
+  'White American':Math.round(79/.62),
+  'Hispanic American':Math.round(82/.62),
+  'Asian American':Math.round(86/.62)
+}
+
+export let marsExpect = {
+  'Native American':Math.round(75/1.88),
+  'African American':Math.round(75/1.88),
+  'White American':Math.round(79/1.88),
+  'Hispanic American':Math.round(82/1.88),
+  'Asian American':Math.round(86/1.88)
+}
+
+export let jupiterExpect = {
+  'Native American':Math.round(75/11.86),
+  'African American':Math.round(75/11.86),
+  'White American':Math.round(79/11.86),
+  'Hispanic American':Math.round(82/11.86),
+  'Asian American':Math.round(86/11.86)
 }

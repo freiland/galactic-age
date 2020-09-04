@@ -35,7 +35,7 @@ describe('keyInfo class', () => {
     expect(raceExpect[userInfo.race]).toEqual(82);
   });
 
-  test('should correctly return life expectancy on Mercury according to race of user', () => {
+  test('should correctly return the time left on plante Earth using race life expectancy and input age', () => {
     expect(raceExpect[userInfo.race]).toEqual(9);
   });
 
