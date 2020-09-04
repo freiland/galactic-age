@@ -16,7 +16,7 @@ describe('keyInfo class', () => {
   });
 
   test('should correctly convert Earth years into Mercury years', () => {
-    expect(userInfo.mercuryYear()).toEqual(13)
+    expect(userInfo.mercuryYear()).toEqual(104);
   });
 });
 
