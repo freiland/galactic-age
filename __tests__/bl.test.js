@@ -36,7 +36,7 @@ describe('keyInfo class', () => {
   });
 
   test('should correctly return the time left on planet Earth using race life expectancy and input age', () => {
-    expect(userInfo.timeOnEarth()).toEqual(9);
+    expect(userInfo.timeOnEarth()).toEqual(57);
   });
 
 });

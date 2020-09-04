@@ -29,15 +29,15 @@ export class keyInfo {
   }
 
   timeOnEarth () {
-    // let age = this.age;
-    // let expectancy = raceExpect[this.race];
-    // let remain = expectancy - age;
-    // if (remain < 0) {
-    //   return ('you have outlived your life expectancy by {remain * -1} years');
-    // } 
-    // else {
-    //   return remain;
-    // }
+    let age = this.age;
+    let expectancy = raceExpect[this.race];
+    let remain = expectancy - age;
+    if (remain < 0) {
+      return ('you have outlived your life expectancy by {remain * -1} years');
+    } 
+    else {
+      return remain;
+    }
   }
 
   //getArea() {
