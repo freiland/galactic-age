@@ -53,11 +53,11 @@ export class keyInfo {
   }
 
   timeOnMars () {
-    let age = Math.round(this.age/1.88);
+    let age = (this.age/1.88);
     let expectancy = marsExpect[this.race];
     let remain = expectancy - age;
     
-    return remain;
+    return Math.round(remain);
   }
   
 
@@ -91,11 +91,11 @@ export let venusExpect = {
 };
 
 export let marsExpect = {
-  'Native American':Math.round(75/1.88),
-  'African American':Math.round(75/1.88),
-  'White American':Math.round(79/1.88),
-  'Hispanic American':Math.round(82/1.88),
-  'Asian American':Math.round(86/1.88)
+  'Native American':(75/1.88),
+  'African American':(75/1.88),
+  'White American':(79/1.88),
+  'Hispanic American':(82/1.88),
+  'Asian American':(86/1.88)
 };
 
 export let jupiterExpect = {
