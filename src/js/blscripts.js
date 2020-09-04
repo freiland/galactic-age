@@ -5,6 +5,6 @@ export class keyInfo {
   }
 
   //getArea() {
-    //return this.side1 * this.side2;
+  //return this.side1 * this.side2;
   //}
 }
