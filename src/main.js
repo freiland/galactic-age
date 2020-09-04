@@ -17,7 +17,7 @@ $(document).ready(function() {
       let response = userData.timeOnEarth();
 
     }
-    $('#response').append(`you are ${ response } on Earth`);
+    $('#response').append(`you are ${response} on Earth`);
 //   // });
 
 //   // $('#rectangle-area-form').submit(function(event) {
