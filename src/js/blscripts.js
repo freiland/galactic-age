@@ -4,6 +4,11 @@ export class keyInfo {
     this.race = race;
   }
 
+  //mercuryYear () {
+
+
+  //}
+
   //getArea() {
   //return this.side1 * this.side2;
   //}

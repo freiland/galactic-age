@@ -7,4 +7,16 @@ describe ('keyInfo class with input user personal data', () => {
     expect(newUser.age).toEqual(25);
     expect(newUser.race).toEqual('hispanic');
   });
+
+  test('should correctly convert Earth years into Mercury years', () => {
+
+
+    })
+
+
+
+
+
+
+
 });
