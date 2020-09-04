@@ -20,7 +20,7 @@ describe('keyInfo class', () => {
   });
 
   test('should correctly convert Earth years into Venus years', () => {
-    expect(userInfo.venusYear()).toEqual(104);
+    expect(userInfo.venusYear()).toEqual(40);
   });
 
 });
