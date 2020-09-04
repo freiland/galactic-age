@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1599257598508" clover="3.2.0">
-  <project timestamp="1599257598509" name="All files">
+<coverage generated="1599257708843" clover="3.2.0">
+  <project timestamp="1599257708843" name="All files">
     <metrics statements="47" coveredstatements="47" conditionals="8" coveredconditionals="8" methods="10" coveredmethods="10" elements="65" coveredelements="65" complexity="0" loc="47" ncloc="47" packages="1" files="1" classes="1"/>
     <file name="blscripts.js" path="/Users/forrestreiland/Desktop/javascript/galactic-age/src/js/blscripts.js">
       <metrics statements="47" coveredstatements="47" conditionals="8" coveredconditionals="8" methods="10" coveredmethods="10"/>
-      <line num="3" count="16" type="stmt"/>
-      <line num="4" count="16" type="stmt"/>
+      <line num="3" count="17" type="stmt"/>
+      <line num="4" count="17" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
       <line num="9" count="1" type="stmt"/>
       <line num="14" count="1" type="stmt"/>
@@ -42,10 +42,10 @@
       <line num="70" count="1" type="stmt"/>
       <line num="71" count="1" type="stmt"/>
       <line num="73" count="1" type="stmt"/>
-      <line num="77" count="1" type="stmt"/>
-      <line num="78" count="1" type="stmt"/>
-      <line num="79" count="1" type="stmt"/>
-      <line num="81" count="1" type="stmt"/>
+      <line num="77" count="2" type="stmt"/>
+      <line num="78" count="2" type="stmt"/>
+      <line num="79" count="2" type="stmt"/>
+      <line num="81" count="2" type="stmt"/>
       <line num="90" count="2" type="stmt"/>
       <line num="98" count="2" type="stmt"/>
       <line num="106" count="2" type="stmt"/>
