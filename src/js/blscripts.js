@@ -32,13 +32,18 @@ export class keyInfo {
     let age = this.age;
     let expectancy = raceExpect[this.race];
     let remain = expectancy - age;
-    if (remain < 0) {
-      return ('you have outlived your life expectancy by {remain * -1} years');
-    } 
-    else {
-      return remain;
-    }
+    
+    return remain;
   }
+
+  timeOnMercury () {
+    let age = this.age;
+    let expectancy = mercuryExpect[this.race];
+    let remain = expectancy - age;
+    
+    return remain;
+  }
+  
 
   //getArea() {
   //return this.side1 * this.side2;

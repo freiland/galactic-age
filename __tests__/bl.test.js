@@ -39,6 +39,10 @@ describe('keyInfo class', () => {
     expect(userInfo.timeOnEarth()).toEqual(57);
   });
 
+  test('should correctly return the time left on planet Mercury using race life expectancy and input age', () => {
+    expect(userInfo.timeOnMercury()).toEqual(57);
+  });
+
 });
 
 
