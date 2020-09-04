@@ -40,3 +40,11 @@ export let raceExpect = {
   'Hispanic American':82,
   'Asian American':86
 }
+
+export let mercuryExpect = {
+  'Native American':75,
+  'African American':75,
+  'White American':79,
+  'Hispanic American':82,
+  'Asian American':86
+}

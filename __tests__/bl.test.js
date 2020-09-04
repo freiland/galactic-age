@@ -31,8 +31,12 @@ describe('keyInfo class', () => {
     expect(userInfo.jupiterYear()).toEqual(2);
   });
 
-  test('should correctly return life expectancy according to race of user', () => {
+  test('should correctly return life expectancy on Earth according to race of user', () => {
     expect(raceExpect[userInfo.race]).toEqual(82);
+  });
+
+  test('should correctly return life expectancy on Mercury according to race of user', () => {
+    expect(raceExpect[userInfo.race]).toEqual(9);
   });
 
 });
