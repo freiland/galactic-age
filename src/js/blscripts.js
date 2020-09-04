@@ -43,6 +43,14 @@ export class keyInfo {
     
     return remain;
   }
+
+  timeOnVenus () {
+    let age = Math.round(this.age/.62);
+    let expectancy = venusExpect[this.race];
+    let remain = expectancy - age;
+    
+    return remain;
+  }
   
 
   //getArea() {
