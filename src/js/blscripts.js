@@ -33,23 +33,23 @@ export class keyInfo {
     let expectancy = raceExpect[this.race];
     let remain = expectancy - age;
     
-    return remain;
+    return Math.round(remain);
   }
 
   timeOnMercury () {
-    let age = Math.round(this.age/.24);
+    let age = (this.age/.24);
     let expectancy = mercuryExpect[this.race];
     let remain = expectancy - age;
     
-    return remain;
+    return Math.round(remain);
   }
 
   timeOnVenus () {
-    let age = Math.round(this.age/.62);
+    let age = (this.age/.62);
     let expectancy = venusExpect[this.race];
     let remain = expectancy - age;
     
-    return remain;
+    return Math.round(remain);
   }
 
   timeOnMars () {
@@ -75,19 +75,19 @@ export let raceExpect = {
 };
 
 export let mercuryExpect = {
-  'Native American':Math.round(75/.24),
-  'African American':Math.round(75/.24),
-  'White American':Math.round(79/.24),
-  'Hispanic American':Math.round(82/.24),
-  'Asian American':Math.round(86/.24)
+  'Native American':(75/.24),
+  'African American':(75/.24),
+  'White American':(79/.24),
+  'Hispanic American':(82/.24),
+  'Asian American':(86/.24)
 };
 
 export let venusExpect = {
-  'Native American':Math.round(75/.62),
-  'African American':Math.round(75/.62),
-  'White American':Math.round(79/.62),
-  'Hispanic American':Math.round(82/.62),
-  'Asian American':Math.round(86/.62)
+  'Native American':(75/.62),
+  'African American':(75/.62),
+  'White American':(79/.62),
+  'Hispanic American':(82/.62),
+  'Asian American':(86/.62)
 };
 
 export let marsExpect = {
@@ -99,9 +99,9 @@ export let marsExpect = {
 };
 
 export let jupiterExpect = {
-  'Native American':Math.round(75/11.86),
-  'African American':Math.round(75/11.86),
-  'White American':Math.round(79/11.86),
-  'Hispanic American':Math.round(82/11.86),
-  'Asian American':Math.round(86/11.86)
+  'Native American':(75/11.86),
+  'African American':(75/11.86),
+  'White American':(79/11.86),
+  'Hispanic American':(82/11.86),
+  'Asian American':(86/11.86)
 };
