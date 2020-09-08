@@ -30,9 +30,11 @@ export class keyInfo {
 
   timeOnEarth () {
     let age = this.age;
+    //let exception = false;
     let expectancy = raceExpect[this.race];
     let remain = expectancy - age;
     if (remain < 0) {
+      //exception = true;
       let exceed = Math.round(age-expectancy); 
       return exceed;
     }

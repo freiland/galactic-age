@@ -4,35 +4,37 @@
   <title>Galactic Calculator</title>
 </head>
 <body>
-  <h3>Galactic Age Calculator</h3>
+  
 
   <form id="question" class="container">
+    <h3 class="jumbotron">Welcome to the Galactic Age Calculator</h3>
 
-    <label for="planet">Choose what planet to calculate age information:</label>
-      <select class="form-control" id="size">
-        <option value="0"><strong>Earth</strong></option>
-        <option value="1"><strong>Mercury</strong></option>
-        <option value="2"><strong>Venus</strong></option>
-        <option value="3"><strong>Mars</strong></option>
-        <option value="4"><strong>Jupiter</strong></option>
+    <label for="planet">Choose your planet:</label>
+      <select class="form-control" id="planet">
+        <option value="earth"><strong>Earth</strong></option>
+        <option value="mercury"><strong>Mercury</strong></option>
+        <option value="venus"><strong>Venus</strong></option>
+        <option value="mars"><strong>Mars</strong></option>
+        <option value="jupiter"><strong>Jupiter</strong></option>
       </select>
   
     <label for="age">Enter your age:</label>
     <input id="age" type="number">
     
-    <label for="race">Choose your race for life expectancy:</label>
-    <select class="form-control" id="size">
+    <label for="race">Choose your race please:</label>
+    <select class="form-control" id="race">
       <option value="Native American"><strong>Native American</strong></option>
       <option value="African American"><strong>African American</strong></option>
       <option value="Asian American"><strong>Asian American</strong></option>
-      <option value="White American "><strong>White American</strong></option>
+      <option value="White American"><strong>White American</strong></option>
       <option value="Hispanic American"><strong>Hispanic American</strong></option>
     </select>
 
     
-      <button type="submit" class="btn btn-primary"><em>submit!</em></button>
+      <button type="submit" class="btn btn-danger"><em>CALCULATE!</em></button>
   </form>
   <ul id="response"></ul>
-  <ul id="response2"></ul>
+  <ul id="venusresponse"></ul>
+  <ul id="marsresponse"></ul>
 </body>
 </html>
